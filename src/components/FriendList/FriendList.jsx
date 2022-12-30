@@ -1,9 +1,10 @@
 import PropTypes from "prop-types";
 import FriendListItem from "./FriendListItem";
+import styles from "./FriendList.module";
 
 const FriendList = ({ friends }) => {
     return (
-        <ul class="friend-list">
+        <ul className={styles.friend-list}>
             {friends.map(({ avatar, name, isOnline, id}) =>
             <FriendListItem
                 avatar={avatar}
@@ -21,7 +22,7 @@ FriendList.propTypes = {
         PropTypes.shape({
             avatar: PropTypes.string,
             name: PropTypes.string,
-            isOnline: PropTypes.string,
+            isOnline: PropTypes.bool,
             id: PropTypes.number,
         })
     ),
