@@ -1,19 +1,19 @@
-import user from "./data/user.json";
+import user from "data/user.json";
 import Profile from "./Profile/Profile";
 
-import data from "./data/data.json";
+import data from "data/data.json";
 import Statistics from "./Statistics/Statistics";
 
-import friends from "./data/friends.json";
+import friends from "data/friends.json";
 import FriendList from "./FriendList/FriendList";
 
-import transactions from "./data/transactions.json";
+import transactions from "data/transactions.json";
 import TransactionHistory from "./TransactionHistory/TransactionHistory";
 
 
 export const App = () => {
   return (
-    <>
+    <div className="container">
       <Profile
         username={user.username}
         tag={user.tag}
@@ -24,6 +24,6 @@ export const App = () => {
       <Statistics title="upload status" stats={data} />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
-    </>
+      </div>
   );
 };
