@@ -1,11 +1,26 @@
-.transaction-history {
-
+.transactionHistory {
+    margin-top: 20px;
+    width: 320px;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgb(237, 149, 237);
+    border-radius: 10px;
+    margin-bottom: 20px;    
 }
 
 .thead {
-
+    background-color: rgb(237, 149, 237);
+    text-transform: uppercase;
+    height: 40px;
+    font-size: 15px;
 }
 
 .tbody {
+    height: 30px;
+    background-color: beige;
+}
 
+
+.tbody:nth-child(even) {
+    background-color: rgb(245, 245, 233);
 }
