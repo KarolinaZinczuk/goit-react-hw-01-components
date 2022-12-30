@@ -5,7 +5,7 @@ const Statistics = ({ title, stats }) => {
     return (
         <section className={styles.statistics}>
             <h2 className={styles.title}>{title}</h2>
-            <ul className={styles.stat-list}>
+            <ul className={styles.statList}>
                 {stats.map(({ id, label, percentage }) => (
                     <li className={styles.item} key={id}>
                         <span className={styles.label}>{label}</span>
