@@ -27,7 +27,7 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
                     <span className={styles.quantity}>{views}</span>
                 </li>
                 <li className={styles.item}>
-                    <span cclassName={styles.label}>Likes</span>
+                    <span className={styles.label}>Likes</span>
                     <span className={styles.quantity}>{likes}</span>
                 </li>
             </ul>
@@ -43,7 +43,7 @@ Profile.propTypes = {
     stats:PropTypes.shape({
         followers: PropTypes.number,
         views: PropTypes.number,
-        likes: PropTypes.likes,
+        likes: PropTypes.number,
     }), 
 };
 
