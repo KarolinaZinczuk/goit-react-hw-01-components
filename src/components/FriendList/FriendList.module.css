@@ -1,0 +1,28 @@
+.friend-list {
+
+}
+
+.item {
+
+}
+
+.status {
+
+}
+
+.statusOnline {
+    composes: status;
+}
+
+.statusOffline {
+    composes: status;
+
+}
+
+.avatar {
+
+}
+
+.name {
+
+}
