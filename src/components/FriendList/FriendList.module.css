@@ -13,33 +13,3 @@
     border-radius: 5px;
     background-color: beige;
 }
-
-.status {
-    display: block;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    margin: 0 10px 0 10px;
-}
-
-.statusOnline {
-    composes: status;
-    background-color: green;
-}
-
-.statusOffline {
-    composes: status;
-    background-color: red;
-
-}
-
-.avatar {
-    border-radius: 50%;
-    margin: 10px;
-    background-color: white;
-}
-
-.name {
-    font-size: 24px;
-    font-weight: bold;
-}
