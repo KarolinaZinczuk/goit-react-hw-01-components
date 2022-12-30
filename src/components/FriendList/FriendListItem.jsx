@@ -15,7 +15,7 @@ FriendListItem.propTypes = {
     avatar: PropTypes.string,
     name: PropTypes.string,
     isOnline: PropTypes.bool
-};
+}; 
 
 export default FriendListItem; 
 
