@@ -24,7 +24,3 @@
 .tbody:nth-child(even) {
     background-color: rgb(245, 245, 233);
 }
-
-.currency {
-    border-radius: 10px;
-}
